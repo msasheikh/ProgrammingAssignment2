@@ -40,9 +40,14 @@ cacheSolve <- function(x, ...) {
 ## m<-makeCacheMatrix()
 ## m$set(matrix(c(0,2,2,0),2,2))
 ## m$get()
-##      [,1] [,2]    ##no cache collected
+##      [,1] [,2]    
 ## [1,]    0    2
 ## [2,]    2    0
+
+## cacheSolve(m)
+##      [,1] [,2]     ##no cache collected
+## [1,]  0.0  0.5
+## [2,]  0.5  0.0
 
 ## cacheSolve(m)
 ## getting cached data  ##cache available; no new calculations performed.
